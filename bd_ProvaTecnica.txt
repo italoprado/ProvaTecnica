@@ -1,0 +1,8 @@
+CREATE DATABASE bd_ProvaTecnica;
+USE bd_ProvaTecnica;
+
+CREATE TABLE tbl_login(
+id int auto_increment not null primary key,
+email varchar(30) not null,
+senha int not null
+);
